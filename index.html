@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html ng-app="InvoiceApplication">
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+		<div class="header-tab">
+			<h1>Invoice Application</h1>
+		</div>
+		<hr class="header-tab-hr"></hr>
+		<div class="form-tab" id="form-id">
+			<form>
+  				Name: <input type="text" name="customername"><br>
+  				Name: <input type="text" name="invoicenumber"><br>
+  				Name: <input type="date" name="invoicedate">
+			</form>
+			<button type="submit" form="form-id" value="Submit">Create Invoice</button>	
+		</div>
+	</body>
+</html>
