@@ -1,5 +1,12 @@
 <!DOCTYPE html>
-<html ng-app="InvoiceApplication2">
-<head></head>
-<body></body>
+<html ng-app="InvoiceApplication">
+<head>
+		<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+		<script src="app.js"></script>
+</head>
+<body ng-controller="ProductListController">
+    <div ng-repeat="product in products">
+      {{product}}
+    </div>
+</body>
 </html>
