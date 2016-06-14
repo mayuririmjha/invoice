@@ -1,22 +1,15 @@
-html, body { 
-    margin: 0; 
-    height: 100%;
-    background-color: #09569E;
-    text-align:center;
-}
-
 div { 
-	width: 100%;
+    width: 100%;
 }
 
 div.header-tab {
-	width: 100%;
-	background-color: #09569E;
-	height: 10%;
+    width: 100%;
+    background-color: #09569E;
+    height: 10%;
 }
 
 div.form-tab {
-	text-align: center;
+    text-align: center;
     line-height:30px;
     vertical-align:middle;
     color: white;
@@ -33,6 +26,13 @@ hr.header-tab-hr {
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+html, body { 
+    margin: 0; 
+    height: 100%;
+    background-color: #09569E;
+    text-align:center;
 }
 
 table.center {

@@ -1,0 +1,48 @@
+div { 
+    width: 100%;
+}
+
+div.header-tab {
+    width: 100%;
+    background-color: #09569E;
+    height: 10%;
+}
+
+div.bottom-left-tab {
+	width: 15%;
+	height: auto;
+	float: left;
+	vertical-align: middle;
+}
+
+div.bottom-right-tab {
+	width: 85%;
+	height: 100%;
+	background-color: green;
+	float: right;
+}
+
+hr.header-tab-hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1 {
+    text-align: center;
+    line-height:100px;
+    vertical-align:middle;
+    color: white;
+}
+
+html, body { 
+    margin: 0; 
+    height: 100%;
+    background-color: #09569E;
+    text-align:center;
+}
+
+td.bottom-left-tab-td {
+	width: 100%;
+	height: 35px;
+}

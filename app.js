@@ -1,14 +1,19 @@
-//This is the app.js file where all the modules live
+(function(){
+	var app = angular.module("InvoiceApplication", []);
 
-var app = angular.module("InvoiceApplication", []);
+	app.controller('CategoryController', function() {
+		this.categoryVar = categoryTypes;
+	});
 
-app.controller('ProductListController', function($scope, $http) {
-  $http.get('data_set.json')
-        .success(function(data) {
-            $scope.products = data;
-        })
-        .error(function(data,status,error,config){
-            $scope.products = [{heading:"Error",description:"Could not load json data"}];
-        });
-
-});
+	var categoryTypes = [
+		{
+			name: "Printer"
+		},
+		{
+			name: "Monitor"
+		},
+		{
+			name: "Scanner"
+		},
+	];
+})();

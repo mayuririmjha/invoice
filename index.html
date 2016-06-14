@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 
-<html ng-app="InvoiceApplication">
+<html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<script type="text/javascript" src="angular.min.js"></script>
-		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" type="text/css" href="indexstyles.css">
 	</head>
 	<body>
 		<div class="header-tab">
@@ -13,12 +10,24 @@
 		</div>
 		<hr class="header-tab-hr"></hr>
 		<div class="form-tab" id="form-id">
-			<form>
-  				Name: <input type="text" name="customername"><br>
-  				Name: <input type="text" name="invoicenumber"><br>
-  				Name: <input type="date" name="invoicedate">
-			</form>
-			<button type="submit" form="form-id" value="Submit">Create Invoice</button>	
+			<table class="center">
+				<br>
+				<tr>
+					<td>Customer Name</td>
+					<td><input type="text" name="customername"></td>
+				</tr>
+				<tr>
+					<td>Invoice Number</td>
+					<td><input type="text" name="invoicenumber"></td>
+				</tr>
+				<tr>
+					<td>Invoice Date</td>
+					<td><input type="date" name="invoicedate"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button type="button">Create Invoice</button></td>
+				</tr>
+  			</table>
 		</div>
 	</body>
 </html>
